@@ -1,6 +1,10 @@
-<link rel="stylesheet" href="style.css">
-	<!-- Mask -->
-	<div class="mask" id="chat">
+<html>
+ <head>
+	<link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <div id="chat">
+    <div class="mask">
 
 		<!-- Main container -->
 		<div class="container">
@@ -93,10 +97,11 @@
 				</footer>
 
 			</section>
-
 		</div>
-
-	</div>
+	</div>  
+</body>
+</html>
+	
 <script src="http://localhost:4000/socket.io/socket.io.js"></script>
 <script>
     var socket = io("http://localhost:4000/", {
