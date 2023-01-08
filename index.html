@@ -1,0 +1,108 @@
+<link rel="stylesheet" href="style.css">
+	<!-- Mask -->
+	<div class="mask" id="chat">
+
+		<!-- Main container -->
+		<div class="container">
+
+			<!-- Chat list view -->
+			<section class="list">
+
+				<!-- Chat list header -->
+				<header class="list__header">
+					<span>Conversations</span>
+				</header>
+
+				<!-- Chat list -->
+				<div class="list__body">
+					
+					<!-- Chat conversation -->
+					<a id="chat1" class="list__chat">
+						<div class="list__preview">
+							<h3 class="list__user">Aurori</h3>	
+							<span class="list__sent"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+							</span>
+							<span class="list__message">En linea</span>
+						</div>
+					</a>
+
+					<!-- Chat conversation
+					<a id="chat2" class="list__chat">
+						<div class="list__preview">
+							<h3 class="list__user">Jean</h3>
+							<span class="list__sent"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+							</span>
+							<span class="list__message">Genial, me encanto la atencion brindada</span>
+						</div>
+					</a>
+
+					Chat conversation -->
+					<!-- <a id="chat3" class="list__chat">
+						<div class="list__preview">
+							<h3 class="list__user">Carla</h3>
+							<span class="list__sent"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+							</span>
+							<span class="list__message">Muy amable de su parte el habernos informado ello</span>
+						</div>
+					</a> -->
+
+				</div>
+			</section>
+
+			<!-- Conversation view -->
+			<section class="conversation">
+
+				<!-- Conversation view header -->
+				<header class="conversation__header">
+					<button class="conversation__btn btn btn--list" title="Conversation list">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+					</button>
+					<div class="conversation__info">
+						<img alt="Asistente virtual Aurori"width="20" height="20" src="img/aurori.png">	
+						<span class="conversation__name">&nbsp;Aurori</span>
+						
+					</div>
+					<span class="conversation__status"></span>
+					<div class="conversation__header-actions">
+						<!-- <button class="conversation__btn btn btn--camera" title="Start videocall">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+						</button> -->
+						<button class="conversation__btn btn btn--close" title="Close chat">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+						</button>
+					</div>
+				</header>
+
+				<!-- Conversation view messages -->
+				<div class="conversation__body">
+					<h6 cla style="font-family: Tahoma; color: lightslategray;">
+						<!--Hola mi nombre es Aurori soy tu asistente virtual.<br><br>-->
+						Aun me encuentro en ambiente de pruebas&#128522.<br>					
+						Es un placer poder ayudarle en lo que necesite.<br><br><br>
+					</h6>
+										
+				</div>
+				
+				<!-- Conversation view footer -->
+				<footer class="conversation__footer">
+					<input type="text" class="conversation__write" placeholder="Mensaje" >
+					<button class="conversation__btn btn btn--send" title="Send message" style=" align-items: center;">
+						<svg style="margin-right: 3.4px; margin-top: 1px;" xmlns="http://www.w3.org/2000/svg" cent width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+						<!-- <img  alt="Icono Whatsapp"width="20" height="20" src="./img/enviar.png" style="margin-right: 3.4px; margin-top: 1px;"> -->
+					</button>
+				</footer>
+
+			</section>
+
+		</div>
+
+	</div>
+<script src="http://localhost:4000/socket.io/socket.io.js"></script>
+<script>
+    var socket = io("http://localhost:4000/", {
+        path: "/socket.io/"
+    });
+</script>
+
+<script src="./app.js"></script>	
+
